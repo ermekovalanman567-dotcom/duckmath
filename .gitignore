@@ -10,3 +10,9 @@
 .env/firebase_config.env
 env/
 ignore
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
